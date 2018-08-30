@@ -12,6 +12,7 @@ require("dotenv").config();
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.
 let window;
+let tray;
 const iconPath = path.join(__dirname, "test.png")
 
 const getWindowPosition = () => {
@@ -126,8 +127,8 @@ ipcMain.on("show-window", () => {
 // Auto updates
 //-------------------------------------------------------------------
 const sendStatusToWindow = text => {
-  if (window) {
-    window.webContents.send("auto-update", text);
+  if (tray) {
+    tray.webContents.send("auto-update", text);
   }
 };
 

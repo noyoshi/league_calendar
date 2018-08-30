@@ -7,3 +7,10 @@ This will be an electron application that lives in the status bar / tray of your
 that brings up League of Legends match schedules and results for the week.
 
 Match data provided by the PandaScore API.
+
+
+
+TODO:
+- Get the official Riot colors / design to use in React
+- Create API
+- Make static components
