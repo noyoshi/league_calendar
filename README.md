@@ -14,3 +14,8 @@ TODO:
 - Get the official Riot colors / design to use in React
 - Create API
 - Make static components
+
+NOTE: 
+- Might have to create a simple webapp that I would use to manage the API requests to PandaScore to 
+keep my secret key... secret :D
+- Solution: https://github.com/openid/AppAuth-JS
