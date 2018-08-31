@@ -18,4 +18,16 @@ TODO:
 NOTE: 
 - Might have to create a simple webapp that I would use to manage the API requests to PandaScore to 
 keep my secret key... secret :D
-- Solution: https://github.com/openid/AppAuth-JS
+- Solution?: https://github.com/openid/AppAuth-JS
+- Will probably make a simple web server that I manage, which updates its databse every hour / every day, that the 
+clients can connecto to via the electron app
+
+
+### Design 
+
+[TITLE]
+
+[         _league icon_      ]
+[(Icon1) Name vs Name (Icon2)]
+[ _record_  *DATE*   _record_]
+... (sorted by date)
