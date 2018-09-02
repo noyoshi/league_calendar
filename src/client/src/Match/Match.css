@@ -1,0 +1,57 @@
+.Match {
+  background-color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+  box-shadow: 3px 2px 2px grey;
+}
+
+/* Wrapper for the 3 divs used to organize content */
+#wrapper {
+  display: flex;
+  width:100%;
+}
+
+#wrapper div {
+  flex-basis: 100%;
+  text-align: center;
+}
+
+.top {
+  padding-top: 5px;
+}
+
+.bottom {
+  padding-bottom: 5px;
+}
+/******************************/
+
+
+/* Team icons */
+.left {
+  float: left;
+  margin-left: 30px;
+}
+
+.right {
+  float: right;
+  margin-right: 30px;
+}
+
+.team-icon {
+  border-radius: 50%;
+  max-width: 40px;
+  margin-top: 5px;
+  background-color: white;
+  border-color: white;
+  border-width: 10px;
+}
+/******************************/
+
+/* VS */
+.vs {
+  margin-top: 25px;
+  text-align: center;
+}
+
+
