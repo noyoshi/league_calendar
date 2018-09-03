@@ -31,3 +31,28 @@ clients can connecto to via the electron app
 [(Icon1) Name vs Name (Icon2)]
 [ _record_  *DATE*   _record_]
 ... (sorted by date)
+
+
+### API 
+- '/api/week/<league_id>'
+- 289 = NALCS
+- Returns JSON in the form of 
+```
+{
+  'date/time':
+  {
+    'teams': 
+    [
+      {'name': name, 
+       'icon': iconcdnpath, 
+      }
+      ...
+    ]
+  }, 
+  'date/time2':
+  ...
+}
+```
+*Not sure what happens when we have the same league playing 2 matches at once..
+
+
